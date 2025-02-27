@@ -7,13 +7,13 @@ document.addEventListener("DOMContentLoaded", function () {
     "Buongiorno!",
     "Ohayou Gozaimasu!",
     "Dobroye Utro!",
-    "좋은 아침이에요",
-    "おはようございます",
-    "Καλημέρα",
-    "Goeie môre",
-    "Goedemorgen",
-    "Доброе Утро",
-    "בוקר טוב",
+    "좋은 아침이에요!",
+    "おはようございます!",
+    "Καλημέρα!",
+    "Goeie môre!",
+    "Goedemorgen!",
+    "Доброе Утро!",
+    "!בוקר טוב",
   ];
   document.getElementById("greeting").textContent =
     greetings[Math.floor(Math.random() * greetings.length)];
